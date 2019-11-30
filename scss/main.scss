@@ -1,0 +1,23 @@
+$primary-color: #427824;
+$accent-color: #94289180;
+$text-color: #fff;
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+  font-weight: map-get($font-weights, medium);
+}
+/*Ampersand equals the parent in sass */
+.main {
+  width: 80%;
+  margin: 0 auto;
+
+  &__paragraph {
+    font-weight: map-get($font-weights, bold)
+  }
+}
