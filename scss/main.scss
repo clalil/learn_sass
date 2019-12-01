@@ -12,6 +12,19 @@
   flex-direction: $direction;
 }
 
+@mixin theme($light-theme: true) {
+  @if $light-theme {
+    background: lighten($primary-color, 100%);
+    color: darken($text-color, 100%);
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
 body {
   background-color: $primary-color;
   color: $text-color;
@@ -30,4 +43,12 @@ body {
       color: #a88786;
     }
   }
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.light {
+  @include theme($light-theme: true)
 }
