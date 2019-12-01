@@ -29,12 +29,16 @@ body {
   margin: 0 auto;
 }
 
-.main .main__paragraph {
+.main .main__paragraph1, .main .main__paragraph2 {
   font-weight: 700;
 }
 
-.main .main__paragraph:hover {
+.main .main__paragraph1:hover, .main .main__paragraph2:hover {
   color: #a88786;
+}
+
+.main .main__paragraph2:hover {
+  color: #56626b;
 }
 
 @media (max-width: 800px) {
