@@ -13,8 +13,21 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: url("https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(79, 108, 130, 0.1)), to(rgba(79, 108, 130, 0.2))), url("https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center top;
+  background: linear-gradient(to right, rgba(79, 108, 130, 0.1), rgba(79, 108, 130, 0.2)), url("https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center top;
   background-size: cover;
+}
+
+.home__name {
+  font-size: 5rem;
+  padding-bottom: 0.8rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #fff;
+}
+
+.home__name--last {
+  color: #56626b;
+  font-weight: 700;
 }
 
 body {

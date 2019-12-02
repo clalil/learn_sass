@@ -4,6 +4,24 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url('https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: 
+  linear-gradient(
+    to right,
+    rgba($primary-color, 0.1),
+    rgba($primary-color, 0.2)
+  ),
+  url('https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center top;
   background-size: cover;
+
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 0.8rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid #fff;
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
 }
