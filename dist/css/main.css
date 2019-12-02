@@ -6,52 +6,19 @@
 }
 
 body {
-  background-color: #4f6c82;
+  background: #4f6c82;
   color: #fafafa;
-  font-weight: 500;
+  height: 100vh;
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 40%;
-  margin: 0 auto;
+h1, h2, h3 {
+  font-weight: 400;
 }
 
-.main .main__paragraph1, .main .main__paragraph2 {
-  font-weight: 700;
-}
-
-.main .main__paragraph1:hover, .main .main__paragraph2:hover {
-  color: #a88786;
-}
-
-.main .main__paragraph2:hover {
-  color: #56626b;
-}
-
-@media (max-width: 800px) {
-  .main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.light {
-  background: white;
-  color: black;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
