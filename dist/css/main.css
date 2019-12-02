@@ -5,6 +5,18 @@
   padding: 0;
 }
 
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
 body {
   background: #4f6c82;
   color: #fafafa;
@@ -46,5 +58,15 @@ main .social-icons a {
 
 main .social-icons a:hover {
   color: #56626b;
+}
+
+footer {
+  position: fixed;
+  font-size: 1rem;
+  bottom: 0.5rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
