@@ -7,7 +7,7 @@
 
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 22vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -67,6 +67,8 @@ main .social-icons {
 
 main .social-icons a {
   padding: 0.5rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .social-icons a:hover {
