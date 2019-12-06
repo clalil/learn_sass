@@ -21,7 +21,7 @@
 .home__name {
   font-size: 5rem;
   padding-bottom: 0.8rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
 }
 
@@ -199,6 +199,10 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: #56626b;
 }
 
 header {
