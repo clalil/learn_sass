@@ -52,4 +52,14 @@
       }
     }
   }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    transform: rotate(90deg) translate(-3rem, -5rem);
+    margin-right: 0.5rem;
+  }
 }
