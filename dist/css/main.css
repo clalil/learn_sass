@@ -222,6 +222,30 @@
   padding-bottom: 1rem;
 }
 
+.about .jobs {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.about .jobs__job {
+  background: #6386a1;
+  padding: 0.5rem;
+  border-bottom: 5px solid #56626b;
+}
+
+.about .jobs__job h2, .about .jobs__job h3 {
+  margin: 0.5rem 0;
+}
+
+.about .jobs__job h6 {
+  margin: 0.3rem 0;
+}
+
 body {
   background: #4f6c82;
   color: #fff;
