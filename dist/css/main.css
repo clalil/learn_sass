@@ -470,6 +470,12 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .projects__bio-image {
+    height: 50vh;
+  }
+}
+
 body {
   background: #4f6c82;
   color: #fff;
