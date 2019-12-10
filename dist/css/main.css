@@ -413,6 +413,11 @@
   color: #fff;
 }
 
+.contact .social-icons {
+  position: initial;
+  margin-top: 2rem;
+}
+
 body {
   background: #4f6c82;
   color: #fff;
