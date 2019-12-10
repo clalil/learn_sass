@@ -46,3 +46,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@include media-large {
+  .projects {
+    &__items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
